@@ -390,49 +390,55 @@ button:hover{
 .warning-box{
 
     grid-column:2 / span 3;
-
     grid-row:3;
 
     background:#fff8e1;
-
     border-left:8px solid #f39c12;
-
     border-radius:10px;
 
-    padding:12px;
+    padding:18px 22px;      /* more left/right spacing */
 
     margin-top:0;
 
     box-shadow:0 5px 15px rgba(0,0,0,.12);
 
-    align-self:start;
-
 }
+
+/* Title */
+
 .warning-box h3{
 
-    margin-bottom:8px;
+    text-align:center;
 
-    font-size:18px;
+    color:#c62828;
+
+    font-size:17px;         /* smaller */
+
+    margin-bottom:10px;
 
 }
+
+/* List */
+
 .warning-box ol{
 
-    padding-left:35px;   /* move numbering away from wall */
+    padding-left:24px;      /* indentation */
 
-    line-height:1.35;
+    line-height:1.45;
 
     color:#333;
 
-    font-size:12px;      /* smaller wording */
-
-
 }
+
+/* List items */
+
 .warning-box li{
 
-    margin-bottom:5px;
+    font-size:12px;         /* smaller font */
+
+    margin-bottom:6px;
 
 }
-
 /* =========================================
    SPECIAL GRID POSITION
 ========================================= */
@@ -458,4 +464,3 @@ button:hover{
     grid-row:2 / span 2;
 
 }
-
