@@ -43,7 +43,7 @@ PTK Kluang
 <!-- KALKULATOR ORP -->
 <!-- ============================= -->
 
-<div class="container orp-card">
+<div class="container">
 
 <h2>
 Kalkulator<br>
@@ -139,7 +139,7 @@ RM 0.00
 <!-- KALKULATOR CUTI TAHUNAN -->
 <!-- ============================= -->
 
-<div class="container cuti-card">
+<div class="container">
 
 <h2>
 Kalkulator<br>
@@ -321,7 +321,7 @@ RM 0.00
 <!-- KALKULATOR OT BIASA -->
 <!-- ============================= -->
 
-<div class="container otbiasa-card">
+<div class="container tall-card">
 
 <h2>
 Kalkulator<br>
@@ -491,7 +491,7 @@ RM 0.00
 <!-- KALKULATOR OT HARI REHAT -->
 <!-- ================================= -->
 
-<div class="container otrehat-card">
+<div class="container tall-card">
 
 <h2>
 Kalkulator<br>
@@ -657,7 +657,7 @@ RM 0.00
 <!-- KALKULATOR SEKSYEN 18A -->
 <!-- ============================= -->
 
-<div class="container section18a-card">
+<div class="container">
 
 <h2>
 Kalkulator<br>
@@ -718,62 +718,91 @@ Kira
 </button>
 
 <button
-onclick="reset18A()"
+onclick="resetSeksyen18A()"
 class="reset-btn">
 
 Reset
 
 </button>
-
 </div>
+
 <div class="result">
 
-    <h3>Keputusan</h3>
+<h3>
+Keputusan
+</h3>
 
-    <p>
-        <strong>Jumlah Upah :</strong>
-        <span id="resultTotalSalary">RM 0.00</span>
-    </p>
+<p>
 
-    <table class="section18a-table">
+<strong>
+Jumlah Upah :
+</strong>
 
-        <tr>
-            <th></th>
-            <th id="month1">-</th>
-            <th id="month2">-</th>
-        </tr>
+<span id="resultTotalSalary">
 
-        <tr>
-            <td>Hari Bekerja</td>
-            <td id="workDays1">0 hari</td>
-            <td id="workDays2">0 hari</td>
-        </tr>
+RM 0.00
 
-        <tr>
-            <td>Kadar Sehari</td>
-            <td id="dailyRate1">RM 0.00</td>
-            <td id="dailyRate2">RM 0.00</td>
-        </tr>
+</span>
 
-        <tr>
-            <td>Bayaran</td>
-            <td id="amount1">RM 0.00</td>
-            <td id="amount2">RM 0.00</td>
-        </tr>
+</p>
 
-    </table>
+<p>
 
-    <hr>
+<strong>
+Bilangan Hari Bekerja :
+</strong>
 
-    <p class="final-result">
+<span id="workDays">
 
-        <strong>Jumlah Bayaran Upah</strong><br>
+0 hari
 
-        <span id="amount18A">
-            RM 0.00
-        </span>
+</span>
 
-    </p>
+</p>
+
+<p>
+
+<strong>
+Bilangan Hari Bulan Kalendar :
+</strong>
+
+<span id="calendarDays">
+
+0 hari
+
+</span>
+
+</p>
+
+<p>
+
+<strong>
+Kadar Sehari :
+</strong>
+
+<span id="section18ADaily">
+
+RM 0.00
+
+</span>
+
+</p>
+
+<p>
+
+<strong>
+Bayaran Upah :
+</strong>
+
+<span id="amount18A">
+
+RM 0.00
+
+</span>
+
+</p>
+
+</div>
 
 </div>
 <!-- ============================= -->
@@ -1004,7 +1033,7 @@ RM 0.00
 <!-- ½ HARI @ KURANG -->
 <!-- ================================= -->
 
-<div class="container rh-card">
+<div class="container medium-card">
 
 <h2>
 Kalkulator Kerja Hari Rehat<br>
@@ -1139,7 +1168,7 @@ RM 0.00
 <!-- LEBIH ½ HARI -->
 <!-- ================================= -->
 
-<div class="container rhlebih-card">
+<div class="container medium-card">
 
 <h2>
 Kalkulator Kerja Hari Rehat<br>
@@ -1273,7 +1302,7 @@ RM 0.00
 <!-- KALKULATOR KERJA PADA HARI KELEPASAN -->
 <!-- ================================= -->
 
-<div class="container ph-card">
+<div class="container medium-card">
 
 <h2>
 Kalkulator<br>
@@ -1527,19 +1556,16 @@ RM 0.00
             Kalkulator ini adalah alat bantuan pengiraan berdasarkan
             formula umum di bawah Akta Kerja 1955 (Akta 265).
         </li>
-
         <li>
             Keputusan pengiraan adalah anggaran dan mungkin berbeza
             bergantung kepada terma kontrak pekerjaan, polisi syarikat
             dan keadaan sebenar pekerja.
         </li>
-
         <li>
             Sila pastikan maklumat yang dimasukkan seperti gaji,
             elaun, tarikh dan tempoh adalah tepat sebelum membuat
             pengiraan.
         </li>
-
         <li>
             Rujuk Jabatan Tenaga Kerja (JTK) atau pihak berkaitan
             sekiranya memerlukan pengesahan rasmi.
