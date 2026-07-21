@@ -287,6 +287,75 @@ button:hover{
 
 }
 
+/* =========================================
+   SEKSYEN 18A RESULT TABLE
+========================================= */
+
+.section18a-table{
+
+    width:100%;
+
+    margin-top:12px;
+
+    border-collapse:collapse;
+
+    text-align:center;
+
+}
+
+.section18a-table th{
+
+    background:#1f4e79;
+
+    color:white;
+
+    padding:8px;
+
+    font-size:13px;
+
+}
+
+.section18a-table td{
+
+    border:1px solid #ddd;
+
+    padding:8px;
+
+    font-size:13px;
+
+}
+
+.section18a-table td:first-child{
+
+    text-align:left;
+
+    font-weight:bold;
+
+    background:#f7f7f7;
+
+}
+
+.final-result{
+
+    text-align:center;
+
+    margin-top:15px;
+
+}
+
+.final-result span{
+
+    display:block;
+
+    margin-top:8px;
+
+    font-size:22px;
+
+    color:green;
+
+    font-weight:bold;
+
+}
 /* GREEN RESULTS */
 
 #orpResult,
